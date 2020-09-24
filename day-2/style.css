@@ -1,0 +1,29 @@
+ h1 {
+     color: blueviolet;
+     background-color: cyan;
+     height: 180px;
+     width: 85%;
+ }
+
+ img {
+     width: 50%;
+
+ }
+
+ .blog {
+     border: 10px solid purple;
+     border-radius: 15px;
+     padding: 10px;
+     margin-bottom: 10px;
+     text-align: center;
+     width: 30%;
+     display: inline-block;
+ }
+
+ .blog p {
+     text-align: justify;
+ }
+
+ .blog:hover {
+     box-shadow: 0 0 10px blue;
+ }

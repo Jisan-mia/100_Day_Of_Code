@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS style priority</title>
+
+    <style>
+        /*        css specificity style order style priority
+
+        element selctor < class selector < id selector < !important
+        
+        !important > id selector > class selector > element selector
+        
+        */
+
+        h1 {
+            color: forestgreen !important;
+        }
+
+        .class {
+            color: red;
+        }
+
+        #id {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: brown" id="id" class="class">This is a heading</h1>
+
+</body></html>

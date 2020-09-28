@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1 ">-->
+    <title>Jisan : Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+    <div id="nav">
+        <nav>
+            <label for="" class="logo">JISAN</label>
+
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <label for="" id="icon">
+                <i class="fas fa-bars"></i>
+            </label>
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+    <section id="first-section">
+        <div class="half-width">
+            <h1>Welcom To</h1>
+            <h1>
+                <span class="special-color">Jisan</span> Website
+            </h1>
+            <h3>Professional Web Develper</h3>
+            <p>In every single day we're using different kinds of website to widen our knowledge and to broaden our outlook. The people who're creating this kind of amuzing websites are called Web Designer/Developer. I feel very passionate that how they creats this kind of websites. Then I turned myself into researching about this. Nowadays I am working in Web Development field and always trying to learn new technologies. </p>
+            <br>
+            <a class="link-btn" href="https://linkedin.com/in/jisan-mia" target="_blank">Hire Me</a>
+        </div>
+        <div class="half-width">
+            <img src="images/profile4.png" alt="">
+        </div>
+    </section>
+    <section id="second-section">
+        <div class="half-width">
+            <img src="images/profile3.png" alt="">
+        </div>
+        <div class="half-width">
+            <h2>Big Dream</h2>
+            <h3>Become a Web Developer</h3>
+            <p>I love to solve problems. Throughout my education, I've been trying always to make myself an accomplished person. Therefore I always try to turn my failure into success by hard working and sustained effort. My curiosity on computer programming drives me to the learning part of this and I'm taking necessary action. </p>
+            <br>
+            <a class="link-btn" href="https://linkedin.com/in/jisan-mia" target="_blank">Download CV</a>
+        </div>
+
+    </section>
+
+    <section id="third-section">
+        <h2 class="experience">Experiences</h2>
+        <div id="full-stack" class="half-width exp-box ">
+            <h2>Full Stack Web Develper</h2>
+            <h3><span class="special-color">2020-Prsent | Web Developer</span></h3>
+            <p>I have already learned HTML, CSS, JS and React. So there is no doubt that I'll have learned the otehr necessary things of Web Development. After taht, I'll be a Full stack Develper in 2021 as a Pro one.</p>
+        </div>
+        <div id="web-dev" class="half-width exp-box">
+            <h2>Simple Web Developer</h2>
+            <h3><span class="special-color">2019-Present | Programming-hero Learner</span></h3>
+            <p>The amuzing instructor of Programming-hero teaching us how to become a Web Developer. From there I've already learned HTML, CSS, Github and now I've made this Portfolio Website by observing Jhankar's instructions. I think I'll be to become a Web Developer if I follow this course properly.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Jisan Mia 2020, All Rights Reserved</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#icon').click(function() {
+                $('ul').toggleClass('show')
+            })
+        })
+
+    </script>
+
+</body>
+
+</html>

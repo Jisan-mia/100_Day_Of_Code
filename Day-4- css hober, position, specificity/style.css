@@ -1,0 +1,52 @@
+h1 {
+    color: goldenrod;
+}
+
+/*pseudo classes*/
+.specialh1:hover {
+    color: indianred;
+    font-size: 40px;
+    background-color: greenyellow
+}
+
+
+
+input:focus {
+    color: green;
+    font-size: 30px;
+
+}
+
+li:nth-child(2n+1) {
+    background-color: orangered;
+}
+
+a:visited {
+    color: mediumspringgreen;
+}
+
+/*pseudo elements*/
+
+.pseudo-elm::before {
+    content: 'Hello ';
+    color: blue;
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+.pseudo-elm::after {
+    content: "Wow ";
+    color: green;
+    background: red;
+    font-size: 20px;
+
+}
+
+body {
+    counter-reset: section;
+}
+
+p::before {
+    counter-increment: section;
+    content: "No. "counter(section) ":  ";
+}

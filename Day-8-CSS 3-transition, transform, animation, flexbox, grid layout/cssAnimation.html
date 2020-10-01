@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Animation</title>
+
+
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0.05);
+            margin: 0;
+            padding: 0;
+        }
+
+        .stage {
+            background-color: rgba(0, 0, 0, 0.2);
+            height: 200px;
+            min-width: 800px;
+        }
+
+        .ball {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: green;
+            position: relative;
+        }
+
+        .stage:hover .ball {
+            animation: slidein 5s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes slidein {
+            0% {
+                left: 0;
+                top: 0;
+                background-color: greenyellow;
+            }
+
+            25% {
+                left: 200px;
+                top: 100px;
+                background-color: blue;
+            }
+
+            50% {
+                left: 400px;
+                top: 0;
+                background-color: orange
+            }
+
+            75% {
+                left: 600px;
+                top: 100px;
+                background-color: re;
+            }
+
+            100% {
+                left: 800px;
+                top: 0;
+                background-color: dimgray;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Animation</h1>
+
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+
+</body></html>

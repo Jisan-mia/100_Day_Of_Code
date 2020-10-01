@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transform</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 150px;
+            border: 1px solid red;
+        }
+
+        .outer {
+            background-color: darkgreen;
+        }
+
+        .inner {
+            background-color: blue;
+            transform: scale(0.75) skewX(12deg);
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Transform</h1>
+    <div class="box outer">
+        <div class="box inner">box-1</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">box-2</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">box-3</div>
+    </div>
+
+</body>
+
+</html>

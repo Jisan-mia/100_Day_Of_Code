@@ -1,0 +1,17 @@
+.box {
+    width: 400px;
+    height: 200px;
+    border: 5px solid gray;
+    /*    overflow: hidden;*/
+    overflow-y: scroll;
+}
+
+.box2 {
+    width: 400px;
+    height: 200px;
+    border: 5px solid blue;
+}
+
+.images .first-img {
+    width: 20%;
+}

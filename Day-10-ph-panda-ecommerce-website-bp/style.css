@@ -1,0 +1,131 @@
+.container p {
+    color: #949494;
+}
+
+nav div ul li {
+    margin-right: 15px;
+}
+
+
+.carousel-area {
+    background-color: #FEEAE9;
+    padding: 80px;
+    border-radius: 15px;
+}
+
+.carousel-indicators li {
+    background-color: #FF2B7E;
+}
+
+.carousel-item .price {
+    color: #FF136F;
+}
+
+.carousel-item button {
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    background-image: linear-gradient(to bottom, #FF5499, #FF1E76);
+    border-radius: 7px;
+}
+
+#categories .row {
+    color: white;
+}
+
+#categories .row .watch-cat {
+    background-image: linear-gradient(to left, #FFD019, #FF9C35);
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+#categories .row .bag-cat {
+    background-image: linear-gradient(to left, #FF1C75, #FF418C);
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+#categories .row .shoes-cat {
+    background-image: linear-gradient(to left, #3F1CF9, #4289FF);
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+#categories .row img {
+    width: 130px;
+}
+
+#shoes .row .card,
+#bags .row .card {
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px #F3F3F3
+}
+
+.shoes-bags {
+    background-color: #F8F8F8;
+}
+
+.shoes-bags button {
+    color: white;
+    border: none;
+    background-color: orange;
+    padding: 7px 38px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.container .msg {
+    height: 300px;
+    background-color: #FEEAE9;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.container .msg button {
+    background-color: #FF267B;
+    border: none;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 0 5px 5px 0
+}
+
+.container .msg input {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(5, 25, 25, 0.2)
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 425px) {
+    .carousel-area {
+        padding: 8px;
+        text-align: center;
+    }
+
+    .carousel-item p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .navbar .logo {
+        width: 80%;
+    }
+}

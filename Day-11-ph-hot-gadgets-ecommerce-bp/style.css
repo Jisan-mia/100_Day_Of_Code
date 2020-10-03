@@ -1,0 +1,137 @@
+.container p {
+    color: gray;
+}
+
+.special-color {
+    text-decoration: none;
+    color: darkorange;
+
+}
+
+.special-color:hover {
+    text-decoration: none;
+    color: darkorange
+}
+
+.buy-btn {
+    border: none;
+    padding: 7px 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, orange, darkorange);
+
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.buy-btn:hover {
+    /*    color: white;*/
+    background-image: linear-gradient(darkorange, orange)
+}
+
+.carousel .carousel-indicators li {
+    background-image: linear-gradient(darkorange, orange);
+    border-radius: 50%;
+    padding: 1.5px;
+    width: 9px;
+    height: 3px;
+}
+
+.card img {
+    width: 75%;
+}
+
+.card {
+    text-align: center;
+    padding: 30px 0 0 0;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 18px 12px #F9F9F9;
+}
+
+#categories {
+
+    margin-top: 120px;
+    /*    padding: 50px;*/
+}
+
+#categories .cat-title {
+    position: relative;
+}
+
+#categories .cat-title::after {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 5px;
+    background-color: orange;
+    top: 45px;
+    border-radius: 50px;
+}
+
+.categorie-class {
+    height: 600px;
+}
+
+#categories .row {
+    text-align: center;
+}
+
+#categories .beauty,
+#categories .shoes,
+#categories .bags {
+    padding: 25px 35px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 10px #F5F5F5;
+    border: 1ps solid black;
+    margin-bottom: 25px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0
+}
+
+.footer ul li a {
+    text-decoration: none;
+
+}
+
+.footer .row {
+    padding: 50px 0px
+}
+
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px 140px;
+
+}
+
+.copywrite {
+    text-align: center;
+    font-size: 13px;
+    color: gray
+}
+
+.footer .row .col-md-3 div {
+    padding: 15px;
+}
+
+@media (max-widtH: 768px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .categorie-class {
+        height: 1100px;
+    }
+
+}
+
+@media (max-width: 525px) {
+
+    .carousel .carousel-indicators li {
+        display: none;
+    }
+}

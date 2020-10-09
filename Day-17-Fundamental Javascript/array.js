@@ -26,3 +26,25 @@ console.log(friendsAge)
 //add on or more items in the begining of an array
 friendsAge.unshift(11, 13);
 console.log(friendsAge)
+
+//problem: find the largest element of an array
+let marks = [15, 6, 4, 2, 3, 7, 36, 45];
+let max = marks[0];
+for (let i = 0; i< marks.length; i++){
+    var element = marks[i];
+    if(element > max){
+        max = element;
+    }
+}
+console.log(max);
+//smallest element of an array
+let marks1 = [15, 6, 4, 2, 3, 7, 36, 45];
+let min = marks[0];
+for (let i = 0; i< marks1.length; i++){
+    var element = marks1[i];
+    if(element < min){
+        min = element;
+    }
+}
+console.log(min);
+

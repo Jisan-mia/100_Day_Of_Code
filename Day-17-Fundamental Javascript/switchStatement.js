@@ -1,3 +1,5 @@
+//Switch statement 
+
 var num = 100;
 
 switch (num) {
@@ -41,3 +43,4 @@ switch (new Date().getDay()) {
         day = 'Sat';
 }
 console.log(day);
+console.log("happy coding")

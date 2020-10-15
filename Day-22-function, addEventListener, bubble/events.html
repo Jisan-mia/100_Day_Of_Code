@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>event mangement</title>
+</head>
+
+<body>
+    <h1>Exploring Events</h1>
+    <button onClick="alert(72)">Click me 0</button>
+    <button id="second-btn">click me-1</button>
+    <button>click me-2</button>
+    <button>click me-3</button>
+
+
+
+    <script>
+        //function handleClick(){
+        //    document.body.style.backgroundColor = 'cyan'
+        //}
+
+        const secondBtn = document.getElementById('second');
+        //secondBtn.onclick = handleClick;
+
+
+        //        secondBtn.addEventListener('click', handleClick);
+
+
+        secondBtn.addEventListener('click', function() {
+            document.body.style.backgroundColor = 'tomato'
+        })
+
+    </script>
+
+</body>
+
+</html>
